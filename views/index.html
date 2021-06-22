@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Reflection Sandbox</title>
+  <meta charset=utf-8 />
+  <meta name="description" content="Reflection Sandbox" />
+  <meta name="keywords" content="Reflection, Sandbox" />
+  <meta name="viewport"
+    content="user-scalable=no, width=device-width, initial-scale=1.0, minimum-scale=0.75, maximum-scale=0.75" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+  <div id="container">
+    <header id="header">
+      <div id="title">
+        <h1>Reflection Sandbox</h1>
+      </div>
+      <div id="description">
+        <p>How many reflections of an object in a box of mirrors will an onlooker see?</p>
+        <p>Try moving/scrolling/clicking the mouse, and using the sliders to explore this question.</p>
+      </div>
+    </header>
+    <canvas id="canvas"></canvas>
+    <div id="slider-container">
+      <input id="slider1" class="slider" type="range" min="0.5" max="1.5" step="0.01" value="1"></input>
+      <input id="slider2" class="slider" type="range" min="0.5" max="1.5" step="0.01" value="1"></input>
+      <input id="slider3" class="slider" type="range" min="0.5" max="1.5" step="0.01" value="1"></input>
+    </div>
+  </div>
+  <script src="dist/line.js"></script>
+  <script src="dist/img.js"></script>
+  <script src="dist/box.js"></script>
+  <script src="dist/main.js"></script>
+</body>
+
+</html>
