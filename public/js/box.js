@@ -300,8 +300,9 @@ class Box {
       let hitIntersectPointsBuf = [];
       let hitReflectedGemPointsBuf = [];
       let wasHit = false;
+      
       // calculate all angles
-      for (let deg = 0; deg < 359; deg++) {
+      for (let deg = 0; deg < 360; deg += 0.1) {
         const angle = deg * Math.PI / 180; // degree to radians
 
         // calculate the maximum target point from gem

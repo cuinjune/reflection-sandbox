@@ -362,7 +362,7 @@ var Box = /*#__PURE__*/function () {
         var hitReflectedGemPointsBuf = [];
         var wasHit = false; // calculate all angles
 
-        for (var deg = 0; deg < 359; deg++) {
+        for (var deg = 0; deg < 360; deg += 0.1) {
           var angle = deg * Math.PI / 180; // degree to radians
           // calculate the maximum target point from gem
 
