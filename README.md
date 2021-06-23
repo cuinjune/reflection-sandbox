@@ -17,4 +17,4 @@ npm start
 3. Open your web browser and navigate to http://localhost:8000
 
 ## Tools used
-HTML, CSS, JavaScript, Node.js, Express.js
+HTML, CSS, JavaScript, Node.js, Express.js, gulp.js
